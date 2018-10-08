@@ -1,0 +1,176 @@
+body{
+	margin: 0px;
+	background-color: #E5E8E8;
+}
+.container{
+	clear: both;
+	width: 90%;
+	margin: 10% 10% 10% 10%;
+	
+}
+.header_img{
+	
+	width: 78%;
+	margin-left: 2%;
+	margin-top: 5px;
+	text-align: center;
+	background-color: white;
+
+}
+.header_tit{
+	
+	width: 78%;
+	margin-left: 2%;
+	padding-top: 2px;
+	padding-bottom: 1px;
+	text-align: center;
+	background-color: white;
+}
+.row{
+	float: left;	
+	margin-left: 2%;
+	width: 47%;
+	box-sizing: border-box;
+	background-color: white;
+	padding-bottom: 40px;
+}
+.row-2{
+	float: left;
+	width: 31%;
+	box-sizing: border-box;
+	background-color: white;
+	padding-bottom: 40px;
+}
+.cell-big{
+	width: 95%;
+	padding: 3px 2px 2px 2px;
+	background-color: white;
+
+}
+.cell-small{
+	width: 100%;
+	background-color: white;
+	float: left;
+
+
+}
+.letra_naranja{
+	color: #E74C3C;
+}
+.letra_gris{
+	color: #808B96;
+}
+.letra_11{
+	font-size: 11px;
+}
+.perfil{
+	border-radius: 78px;
+	border:solid 7px  #E5E8E8;
+	position: relative;
+	top: -50px;
+}
+.anios{
+	float: left;
+	width: 10%;
+	box-sizing: border-box;
+	margin-top: 2%;
+}
+.anios-detail{
+	margin-top: 2%;
+	float: left;
+	width: 85%;
+	box-sizing: border-box;
+	display: table-cell;
+	background-color:  #E5E8E8;
+	
+}
+.margin-rigth-5{
+	margin-right: 5%;
+}
+.exp-empresa{
+	float: left;
+	width: 20%;
+	box-sizing: border-box;
+	margin-top: 2%;
+}
+.exp-detalle{
+	margin-top: 2%;
+	float: left;
+	width: 75%;
+	box-sizing: border-box;
+	display: table-cell;
+
+}
+.fondo_naranja{
+	background-color: #E74C3C;
+	color: white;
+} 
+.fondo_rojo{
+	background-color: #943126;
+	color: white;
+} 
+.w100{
+	width: 100%
+}
+.w85{
+	width: 85%
+}
+.w75{
+	width: 75%
+}
+.w65{
+	width: 65%
+}
+.w45{
+	width: 45%
+}
+.w20{
+	width: 20%
+}
+.idioma{
+	float: left;
+	width: 60%;
+	box-sizing: border-box;
+	margin-top: 2%;
+}
+.idioma-calif{
+	margin-top: 2%;
+	float: left;
+	width: 35%;
+	box-sizing: border-box;
+	display: table-cell;
+
+}
+.hobbies{
+	float: left;
+	margin: 1% 1% 1% 1%;
+	text-align: center;
+	font-size: 12px;
+}
+@media (max-width: 480px) {
+ 	.row{
+		width: 90%;
+	}
+	.row-2{
+		width: 90%;
+	}
+	.header_img{
+		width: 90%;
+	}
+	.header_tit{
+		width: 90%;
+	}	
+	.cell-big{
+		width: 90%;
+	}
+	.cell.small{
+		width: 90%;
+	}
+	.anios-detail{
+		width: 90%;
+	}
+	.anios{
+		width: 90%;
+	}
+
+}
